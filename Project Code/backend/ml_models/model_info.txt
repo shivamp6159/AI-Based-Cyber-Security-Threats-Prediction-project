@@ -1,0 +1,28 @@
+CyberShield ML Models
+====================
+
+threat_model.pkl
+- Type: Random Forest Classifier
+- Size: 127 MB
+- Accuracy: 95.3%
+- Training Date: 2024-01-15
+- Training Samples: 500,000
+- Features: 45
+
+feature_scaler.pkl
+- Type: StandardScaler
+- Size: 2 KB
+- Purpose: Feature normalization
+
+Training Configuration:
+- n_estimators: 200
+- max_depth: 15
+- min_samples_split: 10
+- Cross-validation: 5-fold
+- Training Time: 2.5 hours
+- GPU: NVIDIA V100
+
+Performance Metrics:
+- Precision: 94.1%
+- Recall: 93.8%
+- F1-Score: 93.9%
