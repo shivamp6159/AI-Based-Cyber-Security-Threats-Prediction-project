@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.DS_Store
+# Environment variables
+.env
+.env.local
+.env.production
+.vercel
